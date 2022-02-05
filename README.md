@@ -17,17 +17,16 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 * Start by finding the most recent date in the data set.
 <img src="/Images/4_most_recent.png" alt="Most Recent"/>
 * Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data.
-<img src="/Images/5_twelve_months.png" alt="12 Months"/>
 * Select only the `date` and `prcp` values.
-
 * Load the query results into a Pandas DataFrame and set the index to the date column.
+* Sort the DataFrame values by `date`.
+* Plot the results using the DataFrame `plot` method.
+* Use Pandas to print the summary statistics for the precipitation data.
+<img src="/Images/5_twelve_months.png" alt="12 Months"/>
 <img src="/Images/6_precipitation_chart.png" alt="Precipitation"/>
 <img src="/Images/7_prcp_fig.png" alt="Precipitation Chart"/>
-* Sort the DataFrame values by `date`.
-
-* Plot the results using the DataFrame `plot` method.
 <img src="/Images/Precipitation.png" alt="Precipitation Plot"/>
-* Use Pandas to print the summary statistics for the precipitation data.
+
 
 ### Station Analysis
 
@@ -70,7 +69,7 @@ Now that you have completed your initial analysis, design a Flask API based on t
   * Home page.
 
   * List all routes that are available.
-<img scr="/Images/11_flask_app_part_1.png" alt="Flask App Part 1"/>
+<img src="/Images/11_flask_app_part_1.png" alt="Flask App Part 1"/>
 <img src="/Images/14_app_homepage.png"/>
 
 * `/api/v1.0/precipitation`
